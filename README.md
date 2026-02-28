@@ -1,29 +1,45 @@
-# Hawon's Dev Log
+<div align="center">
 
-> 문제를 단단하게 풀어내는 백엔드 개발 기록장
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D6A4F,100:40916C&height=180&section=header&text=Hawon%27s%20Dev%20Log&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
 
-안녕하세요. `Java/Kotlin + Spring` 기반으로 안정적인 서비스를 만드는 개발자 **Hawon**입니다.
-원칙과 구조를 지키는 개발을 좋아하고, 학습과 실험을 꾸준히 기록합니다.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=2D6A4F&center=true&vCenter=true&width=700&lines=Backend+Developer;Clean+Architecture+%7C+Stability+First;Keep+the+essence%2C+build+it+solid)](https://git.io/typing-svg)
 
----
+</div>
 
-## About
+## About Me
 
-- Role: Backend Developer
-- Focus: Clean Architecture, Testability, Stability
-- Interests: Domain Modeling, API Design, Performance Tuning
-- Belief: 신념을 지키며 오래 가는 코드 만들기
+<table>
+<tr>
+<td width="55%">
 
----
+- Backend Developer focused on robust API and domain design
+- Main stack: `Java/Kotlin + Spring`
+- Also build with: `Laravel`, `NestJS`, `Express`, `Django`
+- Principle: 규율과 원칙을 지키며, 본질을 놓치지 않는 개발
 
-## Category
+</td>
+<td width="45%">
 
-- `Backend` : Spring Boot, JPA, Querydsl 실전 정리
-- `Infra` : AWS, Docker, Nginx 운영 메모
-- `Troubleshooting` : 장애/버그 원인 분석과 해결 기록
-- `Book & Notes` : 읽은 내용 요약과 적용 회고
+```text
+Interests
+- Clean Architecture
+- Testability
+- Performance Tuning
+- Troubleshooting
+```
 
----
+</td>
+</tr>
+</table>
+
+## Categories
+
+| Category | Description |
+|---|---|
+| `Backend` | Spring Boot, JPA, Querydsl, NestJS, Laravel |
+| `Infra` | AWS, Docker, Nginx, CI/CD |
+| `Troubleshooting` | 장애/버그 원인 분석 + 재발 방지 기록 |
+| `Book & Notes` | 읽은 내용 요약 + 실무 적용 회고 |
 
 ## Featured Posts
 
@@ -32,57 +48,50 @@
 - [Docker 배포 시 자주 놓치는 포인트](#)
 - [N+1 문제를 팀 규칙으로 예방하는 방법](#)
 
-> 위 링크는 예시입니다. 실제 포스트 링크로 교체해 사용하세요.
-
----
-
 ## Tech Stack
 
-**Language**
+### Language
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-**Backend**
+### Backend
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square)
-![Querydsl](https://img.shields.io/badge/Querydsl-2C8EBB?style=flat-square)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge)
+![Querydsl](https://img.shields.io/badge/Querydsl-2C8EBB?style=for-the-badge)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
-**Infra / DevOps**
+### Infra / DevOps
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ## GitHub Stats
 
-![Hawon's GitHub stats](https://github-readme-stats.vercel.app/api?username=hawon6691&show_icons=true&hide_border=true&count_private=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hawon6691&layout=compact&hide_border=true)
-
----
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hawon6691&show_icons=true&hide_border=true&rank_icon=github&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hawon6691&layout=compact&hide_border=true" />
+</div>
 
 ## Contact
 
-- GitHub: https://github.com/hawon6691
 - Blog: https://development-name.tistory.com
 - Email: hawonoj002@gmail.com
+- GitHub: https://github.com/hawon6691
 
----
+<div align="center">
 
-## Motto
+> "규율과 원칙을 지키며, 본질을 놓치지 않는 개발자."
 
-> 규율과 원칙을 지키며, 본질을 놓치지 않는 개발자.
+</div>
