@@ -176,6 +176,11 @@ h1 {
   color: var(--muted);
 }
 
+.section-copy {
+  margin-top: -0.25rem;
+  color: var(--muted);
+}
+
 .tag {
   display: inline-block;
   margin: 0 0 0.36rem;
@@ -186,6 +191,12 @@ h1 {
   background: #eef8f2;
   font-size: 0.78rem;
   font-weight: 700;
+}
+
+.meta {
+  margin-top: 0.5rem !important;
+  font-size: 0.82rem;
+  color: #73857a !important;
 }
 
 .footer {

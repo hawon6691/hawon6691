@@ -47,22 +47,13 @@
     </section>
 
     <section class="posts">
-      <h2>Featured Posts</h2>
-      <div class="grid three">
-        <a class="card" href="#" aria-label="Spring 트랜잭션 경계 다시 이해하기">
-          <p class="tag">Backend</p>
-          <h3>Spring 트랜잭션 경계 다시 이해하기</h3>
-          <p>서비스 계층에서 트랜잭션을 설계할 때의 기준 정리.</p>
-        </a>
-        <a class="card" href="#" aria-label="Querydsl 성능 최적화 체크리스트">
-          <p class="tag">Querydsl</p>
-          <h3>Querydsl 성능 최적화 체크리스트</h3>
-          <p>실무에서 자주 놓치는 병목과 점검 순서.</p>
-        </a>
-        <a class="card" href="#" aria-label="Docker 배포 시 자주 놓치는 포인트">
-          <p class="tag">Infra</p>
-          <h3>Docker 배포 시 자주 놓치는 포인트</h3>
-          <p>빌드/런타임 분리와 운영 환경 안정화 팁.</p>
+      <h2>Latest From Tistory</h2>
+      <p class="section-copy">최신 글을 불러와 카드로 표시합니다. 카드를 누르면 해당 티스토리 글로 이동합니다.</p>
+      <div class="grid three" id="latest-posts">
+        <a class="card" href="https://development-name.tistory.com" target="_blank" rel="noreferrer" aria-label="티스토리 메인으로 이동">
+          <p class="tag">Loading</p>
+          <h3>글 목록을 불러오는 중입니다.</h3>
+          <p>잠시 후 최신 포스트가 자동으로 표시됩니다.</p>
         </a>
       </div>
     </section>
@@ -92,5 +83,6 @@
   <footer class="footer">
     <p>규율과 원칙을 지키며, 본질을 놓치지 않는 개발자.</p>
   </footer>
+  <script src="./app.js"></script>
 </body>
 </html>
