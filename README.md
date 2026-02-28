@@ -1,43 +1,80 @@
-## Hi there 👋
+# Hawon's Dev Log
 
-<!--
-**hawon6691/hawon6691** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> 문제를 단단하게 풀어내는 백엔드 개발 기록장
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-# 👋 Hi, I'm Hawon
-
-### 🧑‍💻 Backend Developer  
-- Clean architecture, stability-first  
-- ISTJ 스타일로 꼼꼼하고 규칙 기반 개발 추구  
-- 신념: 예수는 그리스도
+안녕하세요. `Java/Kotlin + Spring` 기반으로 안정적인 서비스를 만드는 개발자 **Hawon**입니다.
+원칙과 구조를 지키는 개발을 좋아하고, 학습과 실험을 꾸준히 기록합니다.
 
 ---
 
-## 🛠 Tech Stack
-**Languages:** Java, Kotlin, JavaScript  
-**Backend:** Spring Boot, JPA, Querydsl  
-**Infra:** AWS, Docker, Nginx  
-**Tools:** IntelliJ, Git, GitHub Actions
+## About
+
+- Role: Backend Developer
+- Focus: Clean Architecture, Testability, Stability
+- Interests: Domain Modeling, API Design, Performance Tuning
+- Belief: 신념을 지키며 오래 가는 코드 만들기
 
 ---
 
-## 📈 Stats
-![Hawon's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_ID&show_icons=true&hide_border=true&count_private=true)
+## Category
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_ID&layout=compact&hide_border=true)
+- `Backend` : Spring Boot, JPA, Querydsl 실전 정리
+- `Infra` : AWS, Docker, Nginx 운영 메모
+- `Troubleshooting` : 장애/버그 원인 분석과 해결 기록
+- `Book & Notes` : 읽은 내용 요약과 적용 회고
 
 ---
 
-## ✨ Motto
+## Featured Posts
+
+- [Spring 트랜잭션 경계 다시 이해하기](#)
+- [Querydsl 성능 최적화 체크리스트](#)
+- [Docker 배포 시 자주 놓치는 포인트](#)
+- [N+1 문제를 팀 규칙으로 예방하는 방법](#)
+
+> 위 링크는 예시입니다. 실제 포스트 링크로 교체해 사용하세요.
+
+---
+
+## Tech Stack
+
+**Language**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Backend**
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square)
+![Querydsl](https://img.shields.io/badge/Querydsl-2C8EBB?style=flat-square)
+
+**Infra / DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+---
+
+## GitHub Stats
+
+![Hawon's GitHub stats](https://github-readme-stats.vercel.app/api?username=hawon6691&show_icons=true&hide_border=true&count_private=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hawon6691&layout=compact&hide_border=true)
+
+---
+
+## Contact
+
+- GitHub: https://github.com/hawon6691
+- Blog: (링크 추가 예정)
+- Email: (이메일 추가 예정)
+
+---
+
+## Motto
+
 > 규율과 원칙을 지키며, 본질을 놓치지 않는 개발자.
