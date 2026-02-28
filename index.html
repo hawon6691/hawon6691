@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">본문 바로가기</a>
   <header class="hero">
     <div class="hero-inner">
       <p class="eyebrow">HAWON'S NOTEBOOK</p>
@@ -26,7 +27,7 @@
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" id="main-content">
     <section class="grid two">
       <article class="panel">
         <h2>About</h2>
@@ -46,15 +47,32 @@
       </article>
     </section>
 
+    <section class="guide panel">
+      <h2>Visitor Guide</h2>
+      <ul>
+        <li><strong>처음 방문:</strong> Latest From Tistory에서 최신 기술 글부터 확인</li>
+        <li><strong>빠른 탐색:</strong> 검색/카테고리 필터로 원하는 주제만 보기</li>
+        <li><strong>심화 학습:</strong> Tistory Hub에서 카테고리 전체 탐색</li>
+      </ul>
+    </section>
+
     <section class="posts">
       <h2>Latest From Tistory</h2>
       <p class="section-copy">최신 글을 불러와 카드로 표시합니다. 카드를 누르면 해당 티스토리 글로 이동합니다.</p>
+      <div class="posts-toolbar" aria-label="포스트 필터">
+        <input id="post-search" type="search" placeholder="제목/본문 검색 (예: spring, querydsl)" />
+        <div id="post-categories" class="category-chips" aria-live="polite"></div>
+      </div>
+      <p id="post-status" class="status-text" aria-live="polite">최신 글을 불러오는 중입니다...</p>
       <div class="grid three" id="latest-posts">
         <a class="card" href="https://development-name.tistory.com" target="_blank" rel="noreferrer" aria-label="티스토리 메인으로 이동">
           <p class="tag">Loading</p>
           <h3>글 목록을 불러오는 중입니다.</h3>
           <p>잠시 후 최신 포스트가 자동으로 표시됩니다.</p>
         </a>
+      </div>
+      <div class="more-wrap">
+        <button id="load-more" class="btn-more" type="button">더 보기</button>
       </div>
     </section>
 

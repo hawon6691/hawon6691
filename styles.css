@@ -24,6 +24,22 @@ body {
   line-height: 1.6;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #fff;
+  color: #000;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  left: 12px;
+  top: 12px;
+}
+
 .hero {
   padding: 5rem 1.25rem 3rem;
 }
@@ -145,6 +161,10 @@ h1 {
   margin-top: 1.6rem;
 }
 
+.guide {
+  margin-top: 1.25rem;
+}
+
 .tistory {
   margin-top: 1.1rem;
 }
@@ -181,6 +201,51 @@ h1 {
   color: var(--muted);
 }
 
+.posts-toolbar {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.8rem 0 0.5rem;
+}
+
+#post-search {
+  flex: 1 1 260px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.6rem 0.72rem;
+  font: inherit;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.chip {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--muted);
+  padding: 0.28rem 0.62rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.chip.active {
+  border-color: #8bb8a3;
+  background: #e8f5ee;
+  color: var(--brand-strong);
+  font-weight: 700;
+}
+
+.status-text {
+  margin: 0.2rem 0 0.85rem;
+  color: #607168;
+  font-size: 0.92rem;
+}
+
 .tag {
   display: inline-block;
   margin: 0 0 0.36rem;
@@ -197,6 +262,23 @@ h1 {
   margin-top: 0.5rem !important;
   font-size: 0.82rem;
   color: #73857a !important;
+}
+
+.more-wrap {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-more {
+  border: 1px solid #b6c8be;
+  background: #fff;
+  color: var(--brand-strong);
+  border-radius: 999px;
+  padding: 0.48rem 0.95rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .footer {
