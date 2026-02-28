@@ -50,13 +50,6 @@ Interests
 | `Troubleshooting` | 장애/버그 원인 분석 + 재발 방지 기록 |
 | `Book & Notes` | 읽은 내용 요약 + 실무 적용 회고 |
 
-## Featured Posts
-
-- [Spring 트랜잭션 경계 다시 이해하기](#)
-- [Querydsl 성능 최적화 체크리스트](#)
-- [Docker 배포 시 자주 놓치는 포인트](#)
-- [N+1 문제를 팀 규칙으로 예방하는 방법](#)
-
 ## Tech Stack
 
 ### Language
