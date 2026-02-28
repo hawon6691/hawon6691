@@ -89,7 +89,7 @@ Interests
 
 | Stats | Top Languages |
 |---|---|
-| ![Hawon GitHub stats](https://github-readme-stats.vercel.app/api?username=hawon6691&show_icons=true&hide_border=true&rank_icon=github&count_private=true&include_all_commits=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hawon6691&layout=compact&hide_border=true&langs_count=8) |
+| [![Hawon GitHub stats](https://github-readme-stats.vercel.app/api?username=hawon6691&show_icons=true&hide_border=true&rank_icon=github&count_private=true&include_all_commits=true)](https://github.com/hawon6691) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hawon6691&layout=compact&hide_border=true&langs_count=8)](https://github.com/hawon6691?tab=repositories) |
 
 ## Contact
 
