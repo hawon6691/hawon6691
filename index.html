@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hawon Dev Blog</title>
-  <meta name="description" content="Hawon의 백엔드 개발 기록과 기술 노트" />
+  <title>Hawon | Backend Engineer</title>
+  <meta name="description" content="Hawon 백엔드 개발자 포트폴리오 및 기술 기록" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
@@ -12,55 +12,128 @@
 </head>
 <body>
   <a class="skip-link" href="#main-content">본문 바로가기</a>
+
   <header class="hero">
     <div class="hero-inner">
-      <p class="eyebrow">HAWON'S NOTEBOOK</p>
-      <h1>문제를 끝까지 파고드는<br />백엔드 개발 기록</h1>
+      <p class="eyebrow">BACKEND ENGINEER PORTFOLIO</p>
+      <h1>문제를 구조적으로 해결하는<br />백엔드 개발자 Hawon</h1>
       <p class="hero-copy">
-        Java/Kotlin/Spring 중심으로 Laravel, NestJS, Express, Django까지.
-        구조를 지키는 개발과 운영 경험을 기록합니다.
+        Spring 기반 서버 개발, 운영 안정화, 트러블슈팅 중심으로 일합니다.
+        면접관이 빠르게 확인할 수 있도록 핵심 정보만 앞에 배치했습니다.
       </p>
       <div class="hero-actions">
         <a class="btn primary" href="https://github.com/hawon6691" target="_blank" rel="noreferrer">GitHub</a>
         <a class="btn ghost" href="https://development-name.tistory.com" target="_blank" rel="noreferrer">Tistory</a>
+        <a class="btn ghost" href="#contact">Contact</a>
       </div>
     </div>
   </header>
 
   <main class="container" id="main-content">
-    <section class="grid two">
-      <article class="panel">
-        <h2>About</h2>
-        <ul>
-          <li>Backend Developer</li>
-          <li>Clean Architecture, Testability, Stability</li>
-          <li>Domain Modeling, API Design, Performance Tuning</li>
-        </ul>
-      </article>
-      <article class="panel">
-        <h2>Stacks</h2>
-        <p class="chips">
-          <span>Java</span><span>Kotlin</span><span>TypeScript</span><span>Python</span><span>PHP</span><span>C++</span>
-          <span>Spring Boot</span><span>Laravel</span><span>NestJS</span><span>Express</span><span>Django</span>
-          <span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span>
-        </p>
-      </article>
+    <nav class="quick-nav" aria-label="페이지 빠른 이동">
+      <a href="#snapshot">30초 요약</a>
+      <a href="#skills">핵심 역량</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#experience">경력/활동</a>
+      <a href="#writing">기술 글</a>
+      <a href="#contact">연락</a>
+    </nav>
+
+    <section class="section" id="snapshot">
+      <h2>30초 요약</h2>
+      <div class="grid three">
+        <article class="panel metric">
+          <p class="metric-label">Primary Focus</p>
+          <h3>Backend API / Domain Design</h3>
+          <p>Java, Kotlin, Spring 중심으로 트랜잭션/도메인 모델링 설계.</p>
+        </article>
+        <article class="panel metric">
+          <p class="metric-label">Engineering Style</p>
+          <h3>Stability First</h3>
+          <p>테스트 가능성, 장애 대응성, 운영 기준을 우선으로 구현.</p>
+        </article>
+        <article class="panel metric">
+          <p class="metric-label">Communication</p>
+          <h3>문서화 + 회고</h3>
+          <p>기술 의사결정과 트러블슈팅을 블로그에 기록해 공유.</p>
+        </article>
+      </div>
+      <p class="hint">면접 전 빠른 파악용 요약입니다. 수치 지표(처리량/장애율/개선율)는 실제 프로젝트 데이터로 교체하세요.</p>
     </section>
 
-    <section class="guide panel">
-      <h2>Visitor Guide</h2>
-      <ul>
-        <li><strong>처음 방문:</strong> Latest From Tistory에서 최신 기술 글부터 확인</li>
-        <li><strong>빠른 탐색:</strong> 검색/카테고리 필터로 원하는 주제만 보기</li>
-        <li><strong>심화 학습:</strong> Tistory Hub에서 카테고리 전체 탐색</li>
-      </ul>
+    <section class="section" id="skills">
+      <h2>핵심 역량</h2>
+      <div class="grid two">
+        <article class="panel">
+          <h3>Tech Stack</h3>
+          <p class="chips">
+            <span>Java</span><span>Kotlin</span><span>TypeScript</span><span>Python</span><span>PHP</span><span>C++</span>
+            <span>Spring Boot</span><span>JPA</span><span>Querydsl</span><span>Laravel</span><span>NestJS</span><span>Express</span><span>Django</span>
+            <span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span><span>AWS</span><span>Docker</span><span>Nginx</span>
+          </p>
+        </article>
+        <article class="panel">
+          <h3>Strengths</h3>
+          <ul>
+            <li>복잡한 요구사항을 도메인 단위로 분해해 설계</li>
+            <li>병목 구간을 로그/쿼리/지표로 진단하고 개선</li>
+            <li>장애 재발 방지를 위한 체크리스트와 운영 가드 구축</li>
+            <li>코드 리뷰와 문서화로 팀 생산성 향상</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
-    <section class="posts">
-      <h2>Latest From Tistory</h2>
-      <p class="section-copy">최신 글을 불러와 카드로 표시합니다. 카드를 누르면 해당 티스토리 글로 이동합니다.</p>
+    <section class="section" id="projects">
+      <h2>Selected Projects</h2>
+      <div class="grid three">
+        <article class="card project">
+          <p class="tag">Project A</p>
+          <h3>서비스 백엔드 아키텍처 개선</h3>
+          <p>기존 모놀리식 구조를 모듈 단위로 정리하고, API 응답 안정성을 개선.</p>
+          <p class="meta">성과 지표: 응답시간/장애율/운영 비용 수치 입력 예정</p>
+        </article>
+        <article class="card project">
+          <p class="tag">Project B</p>
+          <h3>쿼리 최적화 및 DB 성능 개선</h3>
+          <p>N+1과 비효율 조인을 정리해 트래픽 증가 구간의 병목을 해소.</p>
+          <p class="meta">성과 지표: 평균 쿼리 시간/CPU 사용량 수치 입력 예정</p>
+        </article>
+        <article class="card project">
+          <p class="tag">Project C</p>
+          <h3>운영 자동화 및 배포 안정화</h3>
+          <p>CI/CD와 배포 체크 절차를 정리해 릴리스 실패율을 낮춤.</p>
+          <p class="meta">성과 지표: 배포 시간/실패율 수치 입력 예정</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <h2>Experience Timeline</h2>
+      <div class="panel timeline">
+        <div class="timeline-item">
+          <p class="time">20XX.XX - Present</p>
+          <h3>백엔드 개발</h3>
+          <p>핵심 도메인 API 개발, 성능 개선, 장애 대응 프로세스 정비.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="time">20XX.XX - 20XX.XX</p>
+          <h3>개인/팀 프로젝트</h3>
+          <p>Spring, Laravel, NestJS 기반 서비스 설계 및 배포 경험 축적.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="time">20XX.XX</p>
+          <h3>학습/기록 활동</h3>
+          <p>트러블슈팅과 기술 개념을 티스토리 글로 정리해 지식 자산화.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="writing">
+      <h2>Latest Writing (Tistory)</h2>
+      <p class="section-copy">최신 글을 자동으로 불러옵니다. 키워드 검색과 카테고리 필터로 원하는 글만 빠르게 찾을 수 있습니다.</p>
       <div class="posts-toolbar" aria-label="포스트 필터">
-        <input id="post-search" type="search" placeholder="제목/본문 검색 (예: spring, querydsl)" />
+        <input id="post-search" type="search" placeholder="제목/본문 검색 (예: spring, querydsl, docker)" />
         <div id="post-categories" class="category-chips" aria-live="polite"></div>
       </div>
       <p id="post-status" class="status-text" aria-live="polite">최신 글을 불러오는 중입니다...</p>
@@ -76,24 +149,24 @@
       </div>
     </section>
 
-    <section class="posts tistory">
-      <h2>Tistory Hub</h2>
+    <section class="section" id="contact">
+      <h2>Contact</h2>
       <div class="grid three">
-        <a class="card" href="https://development-name.tistory.com" target="_blank" rel="noreferrer" aria-label="티스토리 메인으로 이동">
+        <a class="card" href="https://github.com/hawon6691" target="_blank" rel="noreferrer">
+          <p class="tag">GitHub</p>
+          <h3>Repository & Contributions</h3>
+          <p>코드와 활동 이력을 확인할 수 있습니다.</p>
+        </a>
+        <a class="card" href="https://development-name.tistory.com" target="_blank" rel="noreferrer">
           <p class="tag">Blog</p>
-          <h3>티스토리 메인</h3>
-          <p>운영 중인 블로그 메인으로 이동합니다.</p>
+          <h3>Technical Writing</h3>
+          <p>설계, 성능, 트러블슈팅 기록을 확인할 수 있습니다.</p>
         </a>
-        <a class="card" href="https://development-name.tistory.com/category" target="_blank" rel="noreferrer" aria-label="티스토리 카테고리">
-          <p class="tag">Category</p>
-          <h3>카테고리 모아보기</h3>
-          <p>백엔드, 인프라, 트러블슈팅 글을 카테고리별로 확인합니다.</p>
-        </a>
-        <a class="card" href="https://development-name.tistory.com/rss" target="_blank" rel="noreferrer" aria-label="티스토리 RSS">
-          <p class="tag">RSS</p>
-          <h3>RSS 피드</h3>
-          <p>티스토리 최신 글 피드를 외부 서비스와 연결할 때 사용합니다.</p>
-        </a>
+        <article class="card">
+          <p class="tag">Resume</p>
+          <h3>Email / Resume PDF</h3>
+          <p>hawonoj002@gmail.com<br />이력서 PDF 링크 추가 예정</p>
+        </article>
       </div>
     </section>
   </main>
@@ -101,6 +174,7 @@
   <footer class="footer">
     <p>규율과 원칙을 지키며, 본질을 놓치지 않는 개발자.</p>
   </footer>
+
   <script src="./app.js"></script>
 </body>
 </html>
