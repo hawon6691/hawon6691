@@ -4,6 +4,15 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=2D6A4F&center=true&vCenter=true&width=700&lines=Backend+Developer;Clean+Architecture+%7C+Stability+First;Keep+the+essence%2C+build+it+solid)](https://git.io/typing-svg)
 
+<p align="center">
+  <a href="https://hawon6691.github.io/hawon6691/" target="_blank">
+    <img src="https://img.shields.io/badge/OPEN_MY_HOMEPAGE-1F6F50?style=for-the-badge&logo=githubpages&logoColor=white" />
+  </a>
+  <a href="https://development-name.tistory.com" target="_blank">
+    <img src="https://img.shields.io/badge/READ_ON_TISTORY-FF5A4A?style=for-the-badge&logo=tistory&logoColor=white" />
+  </a>
+</p>
+
 </div>
 
 ## About Me
