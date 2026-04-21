@@ -23,7 +23,7 @@
 
 - Backend Developer focused on robust API and domain design
 - Main stack: `Java/Kotlin + Spring`
-- Also build with: `Laravel`, `NestJS`, `Express`, `Django`
+- Also build with: `NestJS`, `Express`
 - Principle: 규율과 원칙을 지키며, 본질을 놓치지 않는 개발
 
 </td>
@@ -45,7 +45,7 @@ Interests
 
 | Category | Description |
 |---|---|
-| `Backend` | Spring Boot, JPA, Querydsl, NestJS, Laravel |
+| `Backend` | Spring Boot, JPA, NestJS |
 | `Infra` | AWS, Docker, Nginx, CI/CD |
 | `Troubleshooting` | 장애/버그 원인 분석 + 재발 방지 기록 |
 | `Book & Notes` | 읽은 내용 요약 + 실무 적용 회고 |
@@ -63,15 +63,12 @@ Interests
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge)
-![Querydsl](https://img.shields.io/badge/Querydsl-2C8EBB?style=for-the-badge)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
 ### Database
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### Infra / DevOps
 
